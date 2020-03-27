@@ -6,84 +6,38 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
     <div class="app-container">
       <mat-card>
         <mat-toolbar>
-          Angular Material inside an Angular module
+          cxllics-dev
         </mat-toolbar><br>
         <mat-card-content>
-          <p>You can find here an example,<br>
-          how to use the Angular Material,<br>
-          in a independant Angular module</p>
+          <p>Hello there!<br>
+          Welcome to cxllics-dev!<br>
+          This website is for cxllics's projects & more!</p>
         </mat-card-content>
       </mat-card><br>
 
       <mat-card>
         <mat-card-title>
-          Create an Angular module
+          Title
         </mat-card-title>
         <mat-card-content>
-          <p>I called <strong>angular-material.module</strong>
-          for example.</p>
-        </mat-card-content>
-      </mat-card>
-
-      <mat-card>
-        <mat-card-title>
-          Packages and dependencies to install
-        </mat-card-title>
-        <mat-card-content>
-          <ul>
-        <li><strong>@angular/material</strong></li>
-        <li><strong>@angular/cdk</strong></li>
-        <li>
-          <strong>@angular/animations</strong><br>
-          This one is optionnal, needed only for components,<br>
-          that use Angular Animations<br>
-          In this case it's mandatory to add,<br>
-          <strong>BrowserAnimationsModule</strong> in
-            <strong>angular-material.module</strong>
-        </li>        
-      </ul>
-        </mat-card-content>
-      </mat-card>
-
-      <mat-card>
-        <mat-card-title>
-          Import angular-material components
-        </mat-card-title>
-        <mat-card-content>
-          <p>Inside <strong>Imports</strong> array, import the
-          component you want,<br>
-          then import this module inside the application module.</p>
-        </mat-card-content>
-      </mat-card>
-
-      <mat-card>
-        <mat-card-title>
-          Include a theme
-        </mat-card-title>
-        <mat-card-content>
-          <p>Which is required for some core functions,
-          and can be added easily, by adding inside the
-          main style file the line:</p>
+          <p>Description
         </mat-card-content>
         <mat-card-subtitle>
-          @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+         Posted on: _/_/____
         </mat-card-subtitle>
       </mat-card>
 
       <mat-card>
         <mat-card-title>
-          Install the package HammerJS 
+          Cake House Bakery
         </mat-card-title>
         <mat-card-content>
-          <p>For gesture support, for some components like the Slide
-          or the Tooltip, you can add it using a CDN also, details 
-          on the 
-          <a href="https://developers.google.com/speed/libraries/#hammerjs">
-          Link</a>. Or you can install the package and it to the project
-          dependecies, and import it then to the file <strong>main.ts</strong></p>
+          <p>Want to check out Cake House? Here is the group
+          <a href="https://web.roblox.com/groups/4875233/Cake-House#!">
+          link</a>. <strong>main.ts</strong></p>
         </mat-card-content>
         <mat-card-subtitle>
-          import 'hammerjs';
+         Posted on: 3/27/2020
         </mat-card-subtitle>
       </mat-card>
 
@@ -114,7 +68,7 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
           <mat-card-subtitle>Vulpes Zerda family</mat-card-subtitle>
         </mat-card-header>
         <mat-card-actions>
-          <button #likeBtn mat-button (click)="onLike()">LIKE</button>
+          <button #likeBtn mat-button (click)="onLike()"></button>
         </mat-card-actions>
       </mat-card>
     </div>
@@ -125,8 +79,8 @@ export class AppComponent  {
   @ViewChild('likeBtn') likeBtn: ElementRef;
 
   onLike(): void {
-    this.likeBtn._elementRef.nativeElement.innerText === 'LIKE' ?
-    this.likeBtn._elementRef.nativeElement.innerText = 'LIKED' :
-    this.likeBtn._elementRef.nativeElement.innerText = 'LIKE'
+    this.likeBtn._elementRef.nativeElement.innerText === '0' ?
+    this.likeBtn._elementRef.nativeElement.innerText = '0' :
+    this.likeBtn._elementRef.nativeElement.innerText = '0'
   }
 }
