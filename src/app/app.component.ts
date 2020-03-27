@@ -17,13 +17,13 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 
       <mat-card>
         <mat-card-title>
-          Title
+          Test | Title
         </mat-card-title>
         <mat-card-content>
-          <p>Description
+          <p>Test | Description
         </mat-card-content>
         <mat-card-subtitle>
-         Posted on: _/_/____
+         Posted on: 3/27/2020
         </mat-card-subtitle>
       </mat-card>
 
@@ -34,7 +34,7 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
         <mat-card-content>
           <p>Want to check out Cake House? Here is the group
           <a href="https://web.roblox.com/groups/4875233/Cake-House#!">
-          link</a>. <strong>main.ts</strong></p>
+          link</a>. </p>
         </mat-card-content>
         <mat-card-subtitle>
          Posted on: 3/27/2020
