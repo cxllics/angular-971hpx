@@ -1,7 +1,7 @@
 .app-container {
   width: 70%;
   margin: auto;
-  font-family: 'Product Sans';
+  font-family: 'Roboto';
 }
 
 .example-button-row {
@@ -16,6 +16,6 @@
 }
 
 .example-header-image {
-  background-image: url('https://www.bing.com/th?id=OIP.RlDfNIo3DOeaJ08ncrdukwHaHa&pid=Api');
+  background-image: url('https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_account_circle_48px-512.png');
   background-size: cover;
 }

@@ -57,15 +57,15 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 
       <mat-card class="example-card">
         <mat-card-title>
-          Example of use:
+         Forums
         </mat-card-title>
         <mat-card-subtitle>
-          For cards, buttons and other components
+          Hello! The Forums are currently only open developers of this site. 
         </mat-card-subtitle>
         <mat-card-header>
           <div mat-card-avatar class="example-header-image"></div>
-          <mat-card-title>Fennec Fox</mat-card-title>
-          <mat-card-subtitle>Vulpes Zerda family</mat-card-subtitle>
+          <mat-card-title>cxllics</mat-card-title>
+          <mat-card-subtitle>Hello there! This is our first forum post! Seems like it works, doesn't it? :D</mat-card-subtitle>
         </mat-card-header>
         <mat-card-actions>
           <button #likeBtn mat-button (click)="onLike()"></button>
